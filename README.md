@@ -7,13 +7,14 @@ curl -sL https://github.com/operator-framework/operator-lifecycle-manager/releas
 ```
 
 2. Install the operator by running the following command:
-
+```
 kubectl create -f https://operatorhub.io/install/argocd-operator.yaml
+```
 
 3. To create pods for argo cd
-
+   
 Create a yml file : vi argo.yml
-
+```
 apiVersion: argoproj.io/v1alpha1
 kind: ArgoCD
 metadata:
@@ -21,8 +22,10 @@ metadata:
   labels:
     example: basic
 spec: {}
-
+```
+```
 kubectl create -f argo.yml
+```
 
 4. To access the UI 
 
