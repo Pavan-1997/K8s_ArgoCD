@@ -5,6 +5,9 @@
 
 
 1. Install Operator Lifecycle Manager (OLM), a tool to help manage the Operators running on your cluster.
+
+Operator Lifecycle Manager (OLM) is a tool used to manage Kubernetes operators in a cluster. Kubernetes operators are custom controllers that automate the deployment and management of complex applications. OLM helps with the installation, upgrade, and overall lifecycle management of these operators. It enables administrators to easily discover, install, and maintain operators, streamlining the process of managing applications on a Kubernetes cluster.
+
 ```
 curl -sL https://github.com/operator-framework/operator-lifecycle-manager/releases/download/v0.24.0/install.sh | bash -s v0.24.0
 ```
