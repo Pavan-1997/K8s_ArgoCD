@@ -1,4 +1,4 @@
-# K8s ArgoCD
+# K8s ArgoCD 
 
  
 `https://operatorhub.io/operator/argocd-operator`
