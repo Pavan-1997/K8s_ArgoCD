@@ -2,7 +2,7 @@
         
        
 `https://operatorhub.io/operator/argocd-operator`  
- 
+  
 
 1. Install Operator Lifecycle Manager (OLM), a tool to help manage the Operators running on your cluster.
 
